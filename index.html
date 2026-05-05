@@ -1,0 +1,94 @@
+<!DOCTYPE html><!--le dice al navegador este es un archivo de html5-->
+<html lang="es"><!--es la raiz de la pagina web indica que el contenido esta en español-->
+<head><!--aqui no se ve nada pero es la cabeza del docuemnto configuracion-->
+  <meta charset="UTF-8"><!--permite usar caracteres epeciales #$%%-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--hace que la pagin web se vea responsiva se adapta a celulares y tablets-->
+  <title>SISJA Soluciones Tecnologicas</title><!--es el nombre que aparece en la pestaña del navegador-->
+  <link rel="stylesheet" href="styles.css">
+</head><!--en el head no es visible para el usuario pero dentro de el va la configuracion del css-->
+<body><!--aqui va todo lo visible textos imagenes videos botones formularios etc ojo al final del cierre del body va el link del js javascript-->
+<header><!--encabezado visible-->
+    <img src="logo1.png" alt="logo sisja"> <!--img: es para agregar una imagen-->
+    <h1><strong>SISJA SOLUCIONES TECNOLOGICAS</strong></h1> <!--strong es para remarcar o resaltar algo importante-->
+</header><!--encabezado visible-->
+    <main><!--esta etiqueta hace referencia a lo mas importante-->
+   <section><!--agrupa contenido independiente y completo-->
+        <h2>¿Que es SISJA? </h2>
+    <p><em>SISJA soluciones tecnologicas, es una empresa dedicada a brindar servicios de calidad en el ambito tecnologico el cual su fuerte es Instalaciones CCTV, PUNTOS DE VENTA, REDES, DESARROLLO WEB A MEDIDA. </em></p> <!--em es para dar enfasis-->
+   </section>
+   <section>
+     <h2> Servicios </h2>
+    <article><!--se usa para definir contenido independiente y completo-->
+     <h3>Instalaciones CCTV</h3>
+        <ul><!--LISTA DESORDENADA-->
+     <li>DVR y camaras analogas</li><!--elemento de lista-->
+     <li>NVR y camaras IP</li>
+     </ul>
+</article>
+<article>
+    <h3>Instalaciones POS</h3>
+    <ul>
+         <li>ELEVENTA software</li>
+    <li>SICAR software</li>
+    </ul>
+</article>
+    <article> 
+        <h3>Instalaciones Redes</h3>
+        <ul>
+ <li>Repetidores</li>
+        </ul>
+    </article>
+    <article>
+        <h3>Soporte TI</h3>
+        <ul>
+<li>Mantenimiento preventivo y correctivo</li>
+        </ul>
+    </article>
+    <article>
+        <h3>Desarrollo web</h3>
+        <ul>
+   <li>Proyectos a medida</li>
+        </ul>
+    </article>
+<article>
+    <h3>Venta de equipo tecnologico</h3>
+    <ul>
+<li>Todas las marcas de equipos de computo</li>
+    </ul>
+</article>
+   </section>   
+   <section>
+  <h2>Contáctanos</h2>
+  <form method="POST"> <!--sirve para recoger datos del usuario-->
+    <label for="nombre">Nombre</label> 
+    <input type="text" id="nombre" name="nombre">
+<!-- label: funciona para asignar nombre o descripcion al formulario-->
+ <!--for: es un atributo para conectar la eqtiqueta label-->
+ <!--type: es un atributo que se usa en input para definir el dato al usuario -->
+ <!--input: sirve para crear campos donde el usuario escribe o selecciona datos-->
+ <!--textarea: escribe un texto largo-->
+ <!--button: es para crear un boton-->
+    <label for="correo">Correo</label>
+    <input type="email" id="correo" name="correo">
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section> 
+<section>
+    <h3>contactanos para generar tu cotizacion</h3>
+    <a href="">Contáctanos por Instagram</a>
+</section>
+<section>
+    <ul><!--lista desordenada-->
+        <li>referencias</li><!--elemento de lista-->
+    </ul>
+</section>
+</main>
+<footer>
+    2026 by gerardo cadena 
+</footer>
+</body><!--Aates de cerrar se agrega el js para que automatice-->
+</html>

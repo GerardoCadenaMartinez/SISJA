@@ -1,0 +1,89 @@
+/*quita los espacios del navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* inicia el body*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+/*termina el body*/
+
+/*inicia el header*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  background-color: #0d1b2a;
+  color: white;
+  padding: 20px;
+}
+
+header img {
+  width: 60px;
+}
+/*termina el header your love   Everybody Wants To Rule The World     Electric Light Orchestra - Last Train to London    Dire Straits - Sultans Of Swing     */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+section:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+section:first-of-type {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+article {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+
+  transition: transform 0.2s;
+}
+
+article:hover {
+  transform: scale(1.03);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0077b6;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+button:hover {
+  background-color: #1b263b;
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
